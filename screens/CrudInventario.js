@@ -5,7 +5,7 @@ import { View, TextInput, StyleSheet,
 import { useNavigation } from "@react-navigation/native";
 import axios from 'axios';
 
-const API_URL = "http://192.168.1.68:3000/api/inventario";
+const API_URL = "http://localhost:3000/api/inventario";
 
 const CrudInventario = () => {
     const [isLoading, setIsLoading] = React.useState(false);

@@ -5,7 +5,7 @@ import { View, TextInput, StyleSheet, Button,
 import { useNavigation } from "@react-navigation/native";
 import axios from 'axios';
 
-const API_URL = "http://192.168.1.68:3000/api/eventos";
+const API_URL = "http://localhost:3000/api/eventos";
 
 const Eventos = () => {
     const navigation = useNavigation();
